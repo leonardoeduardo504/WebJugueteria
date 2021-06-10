@@ -9,6 +9,8 @@
     <Copy SourceFiles="@(RoslynFiles)" DestinationFolder="$(WebProjectOutputDir)\bin\roslyn" SkipUnchangedFiles="true" Retries="$(CopyRetryCount)" RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)" />
 </Target>
 
+2.1 Cerrar Solución y volver a abrir para que tome cambios, limpiar y compilar nuevamente.
+
 3.Configurar Solución WebJugueteria con los dos proyectos de inicio multiple con acción iniciar.
 
 4.Configurar en Web.Config del proyecto ApiJugueteria la llave connectionStrings de la maquina donde se ejecuta el codigo.
